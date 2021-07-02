@@ -63,6 +63,9 @@ body {
 }
 
 .header .right-header .help{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
     margin-left: 20px;
     font-weight: 300;
     font-size: 14px;
@@ -167,7 +170,7 @@ body {
 .navigation .search-item {
     display: flex;
     height: 30px;
-    width: 600px;
+    width: 650px;
     margin-top: 30px;
     margin-left: 10px;
     background-color: none;
@@ -187,19 +190,22 @@ body {
 
 .navigation .item-others {
     margin-top: 40px;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .navigation .item-others li{
     display: inline;
     margin: 0 5px;
-}
-
-.navigation .item-others li{
     width: 30px;
     height: 30px;
-    padding: 0 5px;
+    padding: 0 10px;
 }
+
+.navigation .item-others li img{
+    width: 28px;
+    height: 28px;
+}
+
 
 .navigation .item-others li .icon-notification .badge-notif {
     height: 12px;
@@ -208,9 +214,214 @@ body {
     border-radius: 10px;
     position: absolute;
     top: 88px;
-    left: 922px;
-    
+    left: 1002px;
 }
+
+.navigation .button-section {
+    display: flex;
+    padding: 0px;
+    margin-top: 35px;
+    display: inline;
+    max-width: 200px;
+    /* background-color: red; */
+}
+
+.navigation .button-section li{
+    padding: 0 10px;
+    display: inline;
+}
+
+.navigation .button-section li .signup{
+    padding: 0 5px;
+    display: inline;
+}
+
+.navigation .button-section li .line{
+    display: inline;
+    height: 100%;
+    width: 5px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 1px;
+}
+
+.navigation .button-section li {
+    display: inline;
+}
+
+
+
+/* Fotter */
+footer {
+    margin-top: 100px;
+}
+footer .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .row .address{
+    padding: 0px 0px;
+}
+footer .row .address .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .address .desc {
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+footer .row .dnr-plus {
+    padding: 0px 0px;
+}
+
+footer .row .dnr-plus .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .dnr-plus a{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+
+footer .row .payment-info {
+    padding: 0px 0px;
+}
+
+footer .row .payment-info .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .payment-info img{
+    display: inline;
+}
+
+footer .row .payment-info .ovo{
+    width: 70px;
+}
+
+footer .row .payment-info .gopay{
+    width: 80px;
+}
+
+footer .row .payment-info .visa{
+    width: 80px;
+}
+
+footer .row .payment-info .indomaret{
+    width: 100px;
+}
+
+footer .row .payment-info .alfamart{
+    width: 100px;
+}
+
+footer .row .payment-info .second-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .payment-info .dnr-logo{
+    width: 150px;
+}
+
+footer .row .service-info {
+    padding: 0px 0px;
+}
+
+footer .row .service-info .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .service-info a{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+footer .row .service-info .second-title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+footer .row .apps-info {
+    padding: 0px 0px;
+}
+
+footer .row .apps-info .title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .apps-info img {
+    margin: auto;
+    display: block;
+}
+
+footer .row .apps-info .qr {
+    width: 150px;
+}
+
+footer .row .apps-info .playstore {
+    width: 120px;
+}
+
+footer .row .apps-info .appstore {
+    margin-top: 10px;
+    width: 120px;
+}
+
+.line {
+    width: 98%;
+    margin: 100px auto 30px;
+}
+
+.cpr {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.cpr .dnr {
+    height: 60px;
+}
+
+.cpr .cpr-1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cpr .cpr-1 h5{
+    font-size: 14px;
+}
+
+.cpr .cpr-1 .wm{
+    text-decoration: none;
+    color: #f56d1e;
+}
+
+.cpr .cpr-1 p{
+    font-size: 14px;
+}
+
+
+
 
 
 
