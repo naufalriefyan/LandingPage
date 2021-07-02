@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+    background-color: #202B7A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 30px;
+}
+
+.header .left-header {
+    display: inline;
+
+}
+
+.header .left-header h6 {
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header{
+    display: flex;
+}
+
+.header .right-header h6{
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header .socmed {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header .right-header .socmed li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.header .right-header .socmed li img{
+    width: 21px;
+    height: 20px;
+}
+
+.header .right-header .line{
+    margin-left: 20px;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+}
+
+.header .right-header .help{
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header #language{
+    margin-left: 20px;
+}
+
+.header .right-header #language .btn{
+    color: white;
+    line-height: 30px;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 14px;
+}   
+
+.header .right-header #language .btn .country-language{
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+.header .right-header #language #list-language {
+    width: 200px;
+   
+}
+
+.header .right-header #language #list-language li {
+    list-style: none;
+    padding: 8px 15px;
+}
+
+.header .right-header #language #list-language li a{
+    line-height: 27x;
+    height: 27px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    transition: .5s;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.header .right-header #language #list-language li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.header .right-header #language #list-language li img{
+    height: 21px;
+}
+
+
+/*  section navigation */
+.navigation {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    
+    padding: 0 30px;
+}
+
+.navigation .logo {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation .logo img {
+    height: 100%;
+}
+
+.navigation .kategori #kategori .btn{
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.navigation .kategori #kategori #list-kategori {
+    width: 200px;
+}
+
+.navigation .kategori #kategori #list-kategori li {
+    list-style: none;
+    padding: 8px 15px;
+}
+
+.navigation .kategori #kategori #list-kategori li a{
+    line-height: 27x;
+    height: 27px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    transition: .5s;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.navigation .kategori #kategori #list-kategori li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.navigation .search-item {
+    display: flex;
+    height: 30px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: none;
+}
+
+.navigation .search-item .input-search{
+    border: 2px solid #f56d1e;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.navigation .search-item .search-button{
+    background-color: #f56d1e;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid #f56d1e;
+}
+
+.navigation .item-others {
+    margin-top: 40px;
+    padding: 0 15px;
+}
+
+.navigation .item-others li{
+    display: inline;
+    margin: 0 5px;
+}
+
+.navigation .item-others li{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.navigation .item-others li .icon-notification .badge-notif {
+    height: 12px;
+    width: 12px;
+    background-color: #202B7A;
+    border-radius: 10px;
+    position: absolute;
+    top: 88px;
+    left: 922px;
+    
+}
+
+
+
+
+
+
+
