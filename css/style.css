@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+.header {
+    background-color: #202B7A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 30px;
+}
+
+.header .left-header {
+    display: inline;
+
+}
+
+.header .left-header h6 {
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header{
+    display: flex;
+}
+
+.header .right-header h6{
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header .socmed {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header .right-header .socmed li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.header .right-header .socmed li img{
+    width: 21px;
+    height: 20px;
+}
+
+.header .right-header .line{
+    margin-left: 20px;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+}
+
+.header .right-header .help{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header .right-header #language{
+    margin-left: 20px;
+}
+
+.header .right-header #language .btn{
+    color: white;
+    line-height: 30px;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 14px;
+}   
+
+.header .right-header #language .btn .country-language{
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+.header .right-header #language #list-language {
+    width: 200px;
+   
+}
+
+.header .right-header #language #list-language li {
+    list-style: none;
+    padding: 8px 15px;
+}
+
+.header .right-header #language #list-language li a{
+    line-height: 27x;
+    height: 27px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    transition: .5s;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.header .right-header #language #list-language li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.header .right-header #language #list-language li img{
+    height: 21px;
+}
+
+
+/*  section navigation */
+.navigation {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    
+    padding: 0 30px;
+}
+
+.navigation .logo {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navigation .logo img {
+    height: 100%;
+}
+
+.navigation .kategori #kategori .btn{
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.navigation .kategori #kategori #list-kategori {
+    width: 200px;
+}
+
+.navigation .kategori #kategori #list-kategori li {
+    list-style: none;
+    padding: 8px 15px;
+}
+
+.navigation .kategori #kategori #list-kategori li a{
+    line-height: 27x;
+    height: 27px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    transition: .5s;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.navigation .kategori #kategori #list-kategori li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.navigation .search-item {
+    display: flex;
+    height: 30px;
+    width: 650px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: none;
+}
+
+.navigation .search-item .input-search{
+    border: 2px solid #f56d1e;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.navigation .search-item .search-button{
+    background-color: #f56d1e;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid #f56d1e;
+}
+
+.navigation .item-others {
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.navigation .item-others li{
+    display: inline;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.navigation .item-others li img{
+    width: 28px;
+    height: 28px;
+}
+
+
+.navigation .item-others li .icon-notification .badge-notif {
+    height: 12px;
+    width: 12px;
+    background-color: #202B7A;
+    border-radius: 10px;
+    position: absolute;
+    top: 88px;
+    left: 1002px;
+}
+
+.navigation .button-section {
+    display: flex;
+    padding: 0px;
+    margin-top: 35px;
+    display: inline;
+    max-width: 200px;
+    /* background-color: red; */
+}
+
+.navigation .button-section li{
+    padding: 0 10px;
+    display: inline;
+}
+
+.navigation .button-section li .signup{
+    padding: 0 5px;
+    display: inline;
+}
+
+.navigation .button-section li .line{
+    display: inline;
+    height: 100%;
+    width: 5px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 1px;
+}
+
+.navigation .button-section li {
+    display: inline;
+}
+
+/* End Navigation */
+
+/* carousel banner */
+.section-carousel {
+    margin-bottom: 100px;
+}
+
+.section-carousel .glider-prev-carousel{
+    position: relative;
+    z-index: 1;
+    top: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-carousel .glider-prev-carousel i{
+   color: rgb(0, 0, 0);
+}
+
+.section-carousel .glider-next-carousel{
+    position: relative;
+    z-index: 1;
+    top: -275px;
+    right: -96%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-carousel .glider img{
+    width: 100%; 
+}
+/* end carousel banner */
+
+
+/* Reorder Section */
+.reorder-section {
+    width: 98%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #202B7A;
+    margin-bottom: 100px;
+}
+
+.reorder-section .title{
+    padding: 30px 20px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: .02em;
+}
+
+.reorder-section .list-reorder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.reorder-section .list-reorder .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 31%;
+    height: 200px;
+    min-width: 31%;
+    margin: 30px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.reorder-section .list-reorder .card .main .title1{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reorder-section .list-reorder .card .main .last-order{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(105, 105, 105);;
+}
+
+.reorder-section .list-reorder .card img{
+    display: inline;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* End Reorder Section */
+
+
+/* Recommend Section */
+
+.rekomendasi .top-rekomendasi {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rekomendasi .top-rekomendasi .title{
+    width: fit-content;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.rekomendasi .top-rekomendasi .see-more{
+    text-decoration: none;
+    width: fit-content;
+    display: inline;
+    font-size: 14px;
+}
+
+.rekomendasi .bottom-rekomendasi{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi{
+    margin: 0px 20px;
+    padding: 0px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    box-shadow: 5.6404px 7.89656px 25.9458px rgba(116, 114, 114, 0.25);
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi a{
+    text-decoration: none;
+}
+.rekomendasi .bottom-rekomendasi .list-rekomendasi img{
+   width: 100%;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side .title{
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side .title:hover{
+    text-decoration: black;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side .price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f56d1e;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side a{
+    display: inline;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side a i{
+    color: #f56d1e;
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side .rate{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .left-side .sold{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+}
+
+.rekomendasi .bottom-rekomendasi .list-rekomendasi .side .right-side{
+    margin: 0 auto;
+}
+
+/*  */
+
+.rekomendasi .glider-prev{
+    position: relative;
+    margin-left: 20px;
+    top: 200px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 5.6404px 7.89656px 25.9458px rgba(116, 114, 114, 0.25);
+    background-color: white;
+}
+
+.rekomendasi .glider-next{
+    position: relative;
+    top: -330px;
+    right: -96%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 5.6404px 7.89656px 25.9458px rgba(116, 114, 114, 0.25);
+    background-color: white;
+}
+
+/* End Recommend Section */
+
+/* Fotter */
+footer {
+    margin-top: 100px;
+}
+footer .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .row .address{
+    padding: 0px 0px;
+}
+footer .row .address .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .address .desc {
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+footer .row .dnr-plus {
+    padding: 0px 0px;
+}
+
+footer .row .dnr-plus .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .dnr-plus a{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+
+footer .row .payment-info {
+    padding: 0px 0px;
+}
+
+footer .row .payment-info .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .payment-info img{
+    display: inline;
+}
+
+footer .row .payment-info .ovo{
+    width: 70px;
+}
+
+footer .row .payment-info .gopay{
+    width: 80px;
+}
+
+footer .row .payment-info .visa{
+    width: 80px;
+}
+
+footer .row .payment-info .indomaret{
+    width: 100px;
+}
+
+footer .row .payment-info .alfamart{
+    width: 100px;
+}
+
+footer .row .payment-info .second-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .payment-info .dnr-logo{
+    width: 150px;
+}
+
+footer .row .service-info {
+    padding: 0px 0px;
+}
+
+footer .row .service-info .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .service-info a{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+footer .row .service-info .second-title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+footer .row .apps-info {
+    padding: 0px 0px;
+}
+
+footer .row .apps-info .title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .row .apps-info img {
+    margin: auto;
+    display: block;
+}
+
+footer .row .apps-info .qr {
+    width: 150px;
+}
+
+footer .row .apps-info .playstore {
+    width: 120px;
+}
+
+footer .row .apps-info .appstore {
+    margin-top: 10px;
+    width: 120px;
+}
+
+.line {
+    width: 98%;
+    margin: 100px auto 30px;
+}
+
+.cpr {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.cpr .dnr {
+    height: 60px;
+}
+
+.cpr .cpr-1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cpr .cpr-1 h5{
+    font-size: 14px;
+}
+
+.cpr .cpr-1 .wm{
+    text-decoration: none;
+    color: #f56d1e;
+}
+
+.cpr .cpr-1 p{
+    font-size: 14px;
+}
+
+.bg-footer {
+    position: absolute;
+    bottom: -100%;
+    margin-bottom: 0;
+    z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+
